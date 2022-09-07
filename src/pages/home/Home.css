@@ -1,0 +1,15 @@
+.homeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+
+@media screen and (max-width: 730px) {
+    .sidebarI {
+        position: absolute;
+        bottom: -500px;
+        left: 400px;
+        /* display: none; */
+    }
+}
